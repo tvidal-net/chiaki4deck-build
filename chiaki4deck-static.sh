@@ -25,8 +25,7 @@ cmake \
 	-DCHIAKI_GUI_ENABLE_SDL_GAMECONTROLLER=ON \
 	$CHIAKI4DECK_DIR
 
-make -j
-test/chiaki-unit
+make -j && test/chiaki-unit
 
 APP_DIR="$BUILD_DIR/Chiaki"
 mkdir -p "$APP_DIR"
@@ -34,4 +33,4 @@ cp -v "$BUILD_DIR/gui/chiaki" \
 	"/usr/lib/libfftw3.so.3" \
 	"$APP_DIR"
 
-tar acvf "$BUILD_DIR/chiaki4deck-build.tar.bz2" -C "$BUILD_DIR" 'Chiaki'
+tar acf "$BUILD_DIR/chiaki4deck-build.tar.bz2" -C "$BUILD_DIR" "Chiaki"

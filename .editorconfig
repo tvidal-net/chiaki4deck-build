@@ -1,4 +1,6 @@
-[*.sh]
+insert_final_newline = true
 indent_size = 2
+
+[*.sh]
 indent_style = tab
 tab_width = 4

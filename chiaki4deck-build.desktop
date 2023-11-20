@@ -2,6 +2,6 @@
 Type=Application
 Name=chiaki4deck-build
 Comment=Custom Chiaki4Deck Build: PlayStation Remote Play Client
-Exec=/usr/bin/env LD_LIBRARY_PATH='/home/deck/.local/share/Chiaki' /home/deck/.local/share/Chiaki/chiaki
+Exec=/usr/bin/env LD_LIBRARY_PATH='/home/deck/Games/Chiaki' /home/deck/Games/Chiaki/chiaki
 Icon=chiaki4deck
 Categories=Game;
