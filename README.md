@@ -28,23 +28,15 @@ sudo pacman -S --noconfirm --overwrite \* base-devel glibc linux-api-headers sys
 Now you have the option to either install chiaki from the official AUR or you can use a custom
 PKGBUILD I created to build and install chiaki4deck instead.
 
-### Install regular chiaki from official AUR PKGBUILD
-```bash
-mkdir /tmp/chiaki-git
-cd /tmp/chiaki-git
-curl -o PKGBUILD 'https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=chiaki-git'
-makepkg -si --noconfirm
-```
-
 ### Build chiaki4deck from my custom PKGBUILD
 ```bash
 mkdir /tmp/chiaki4deck
 cd /tmp/chiaki4deck
-curl -O 'https://gist.githubusercontent.com/tvidal-net/dda93291eb5898d43ae268e063c928be/raw/PKGBUILD'
+curl -O 'https://raw.githubusercontent.com/tvidal-net/chiaki4deck-build/main/PKGBUILD'
 makepkg -si --noconfirm
 ```
 
-Regardless of which version of chiaki you chose, the final executable should be in `/usr/bin/chiaki` and
+The final executable should be in `/usr/bin/chiaki` and
 you should see chiaki on the start menu, to use it from the gamescope (steamdeck's non-desktop mode interface)
 you just need to create a non-steam application running this executable.
 
