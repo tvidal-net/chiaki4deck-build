@@ -37,5 +37,9 @@ For some reason I cannot understand, a single library `libfftw3.so.3` was not st
 and has to be present for this build to work. I used the `env` & `LD_LIBRARY_PATH` as a workaround
 for this.
 
+Now you won't lose Chiaki4Deck on every steam os system update,
+and of course, don't forget to download great chiaki images from
+[steamgribdb](https://www.steamgriddb.com/game/5319543).
+
 Please raise an issue if you have problems with this and I will try my best to help
 you make this work on your system.
