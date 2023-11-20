@@ -18,7 +18,7 @@ and SteamOS is based on **ArchLinux**.
 
 ### Where ?
 
-Download and extract the [release](/tvidal-net/chiaki4deck-build/releases/tag/v1.0).
+Download and extract the [release](//github.com/tvidal-net/chiaki4deck-build/releases/tag/v1.0).
 
 ### How ?
 
